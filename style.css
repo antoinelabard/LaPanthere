@@ -27,7 +27,7 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-.bloc {
+section {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
@@ -39,7 +39,7 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
+section .container {
     padding-left: 0;
     padding-right: 0;
 }
@@ -826,7 +826,7 @@ h4 {
 }
 
 @media (max-width: 1024px) {
-    .bloc {
+    section {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -867,17 +867,17 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
+    main,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    section {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
-    .bloc-group .bloc {
+    .bloc-group section {
         display: block;
         width: 100%;
     }
@@ -890,7 +890,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .page-container {
+    main {
         overflow-x: hidden;
         position: relative;
     }
@@ -973,7 +973,7 @@ h4 {
         float: left;
         margin-left: 10px;
     }
-    .bloc {
+    section {
         padding-left: 0;
         padding-right: 0;
     }
@@ -1029,7 +1029,7 @@ h4 {
 }
 
 @media (max-width: 400px) {
-    .bloc {
+    section {
         padding-left: 0;
         padding-right: 0;
     }
