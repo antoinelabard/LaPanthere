@@ -1040,3 +1040,25 @@ h4 {
         text-align: center;
     }
 }
+
+form {
+    max-width: 500px;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+#project-description {
+    flex-direction: column;
+}
+
+label {
+    padding-right: 10px;
+}
+
+input:invalid {
+    border-right: #F3976C solid 3px;
+}
