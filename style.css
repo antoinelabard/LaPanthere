@@ -1058,3 +1058,7 @@ label {
 input:invalid {
     border-right: #F3976C solid 3px;
 }
+
+textarea:invalid {
+    border-right: #F3976C solid 3px;
+}
