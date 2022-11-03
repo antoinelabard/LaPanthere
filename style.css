@@ -1041,10 +1041,15 @@ form {
     max-width: 500px;
 }
 
+input {
+    width: 60% !important;
+}
+
 fieldset {
     display: flex;
     justify-content: space-between;
     border: none;
+    margin: 15px;
 }
 
 #project-description {
@@ -1053,6 +1058,7 @@ fieldset {
 
 label {
     padding-right: 10px;
+    width: 40%;
 }
 
 input:invalid {
