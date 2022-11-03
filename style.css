@@ -800,7 +800,7 @@ h4 {
     right: 0;
     left: 0;
     bottom: 0;
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
     background-size: cover;
     filter: brightness(60%);
 }
