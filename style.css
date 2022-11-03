@@ -767,15 +767,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #995f44;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #995f44!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #995f44;
     color: #FFFFFF!important;
 }
 
@@ -793,7 +793,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #995f44!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1062,11 +1062,11 @@ label {
 }
 
 input:invalid {
-    border-right: #F3976C solid 3px;
+    border-right: #995f44 solid 3px;
 }
 
 textarea:invalid {
-    border-right: #F3976C solid 3px;
+    border-right: #995f44 solid 3px;
 }
 
 blockquote {
