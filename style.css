@@ -734,7 +734,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #80724d;
     padding: 40px 40px 40px 40px;
 }
 
@@ -790,8 +790,19 @@ h4 {
     border-color: #364577!important;
 }
 
+#bloc-5-cta {
+    position: relative;
+}
+
 .bg-banniere {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     background-image: url("img/agence-la-panthere.jpg");
+    background-size: cover;
+    filter: brightness(60%);
 }
 
 .bg-presentation {
