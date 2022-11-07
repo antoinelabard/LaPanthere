@@ -794,12 +794,14 @@ h4 {
     position: relative;
 }
 
-.bg-banniere {
+.bg-banniere::before {
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
+    z-index: -1;
     background-image: url("img/agence-la-panthere.webp");
     background-size: cover;
     filter: brightness(60%);
