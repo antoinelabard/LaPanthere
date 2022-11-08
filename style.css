@@ -1071,5 +1071,11 @@ textarea:invalid {
 
 blockquote {
     border: none;
+    font-style: italic;
 }
 
+#testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
